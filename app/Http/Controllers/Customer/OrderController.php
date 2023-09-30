@@ -96,7 +96,7 @@ class OrderController extends Controller
                 "zipcode"       => $zipcode,
                 "address"       => $address,
                 "description"   => $description,
-                "order_value"   => Carbon::now()->toDateTimeString() . "|Đặt hàng thành công",
+                "order_value"   => Carbon::now()->toDateTimeString() . "|Order Successful",
                 "order_status"  => 0,
             ]; 
             $order_item = $this->order->create($data_order);
