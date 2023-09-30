@@ -2724,13 +2724,13 @@ textarea:focus {
     3. Shop grid style
 -----------------------------*/
 .breadcrumb-content h3 {
-  color: #fff;
+  color: #519f10;
   font-family: "Montserrat",sans-serif;
   font-size: 36px;
   font-weight: 600;
 }
 .breadcrumb-content li {
-  color: #fff;
+  color: #519f10;
   display: inline-block;
   font-size: 14px;
   font-weight: 500;
@@ -2738,7 +2738,7 @@ textarea:focus {
   position: relative;
 }
 .breadcrumb-content li a {
-  color: #fff;
+  color: #519f10;
   margin-right: 20px;
 }
 .breadcrumb-content li a:hover {
