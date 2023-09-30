@@ -39,7 +39,7 @@
                                         </p> 
                                         <div class="form-row" style="display: flex; justify-content: space-between;">
                                             <div class="button-box">
-                                                <button type="submit" class=" button-submit form-submit"><span>ログイン</span></button>
+                                                <button type="submit" class=" button-submit form-submit" atr="Login"><span>ログイン</span></button>
                                             </div> 
                                             <a href="{{ route("customer.view.register") }}" type="button" class="btn-auth-action register-button" atr="Login">会員登録</a>  
                                         </div> 

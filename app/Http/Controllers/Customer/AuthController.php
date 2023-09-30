@@ -61,8 +61,8 @@ class AuthController extends Controller
             $email = $request->data_email;
             $url = route('customer.confirm', ['code' => $code, 'email' => $email]);
             Mail::send('customer/confirm-email', array('url'=> $url), function($message) use ($email) {
-                $message->from('stbc.support@gmail.com', 'STBC - Confirm email');
-                $message->to($email)->subject('STBC confirm email!');
+                $message->from('piteiashop@gmail.com', 'Piteia - Confirm email');
+                $message->to($email)->subject('Piteia confirm email!');
             });
 
             return $this->customer->send_response("Register Successful", "/register-successful", 201);
@@ -244,7 +244,7 @@ class AuthController extends Controller
             }
             $user = $this->customer->get_profile($user_id)[0]; 
             $this->customer_detail->update($data, $user->id);
-            return $this->customer->send_response("Cập nhật thành công", "", 200); 
+            return $this->customer->send_response("Update Successful", "", 200); 
         }else{
             return $this->customer->send_response("Phiên đăng nhập hết hạn", $route_redirect, 404); 
         } 

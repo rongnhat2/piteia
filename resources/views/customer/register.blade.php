@@ -180,7 +180,7 @@
                                         </div>  
                                         <div class="form-row" style="display: flex; justify-content: space-between;">
                                             <div class="button-box">
-                                                <button type="submit" class=" button-submit form-submit"><span>新規会員登録</span></button>
+                                                <button type="submit" class=" button-submit form-submit" atr="Register"><span>新規会員登録</span></button>
                                             </div> 
                                             <a href="{{ route("customer.view.login") }}" type="button" class="btn-auth-action register-button" atr="Login">ログイン</a>  
                                         </div>  

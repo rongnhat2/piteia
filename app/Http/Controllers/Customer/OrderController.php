@@ -135,7 +135,7 @@ class OrderController extends Controller
                 'order_data_description'    => $description,
             ];
             Mail::send('customer/confirm-order', array('data'=> $data), function($message) use ($email) {
-                $message->from('sbtc.support@gmail.com', 'SBTC - Order email');
+                $message->from('piteiashop@gmail.com', 'Piteia - Order email');
                 $message->to($email)->subject('ご注文ありがとうございます');
             });
             DB::commit(); 

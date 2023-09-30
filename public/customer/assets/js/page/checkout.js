@@ -124,8 +124,7 @@ const View = {
         if (json_cart == null) {
             window.location.replace("/cart"); 
         }
-        json_cart.cart.map(v => {
-            console.log(v);
+        json_cart.cart.map(v => { 
         	getOne(v.id, v.meta, v.qty)
         }) 
     }

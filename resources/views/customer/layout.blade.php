@@ -25,6 +25,7 @@
         <link rel="stylesheet" href="{{ asset("customer/assets/css/responsive.css") }}">
         <script src="{{ asset("customer/assets/js/vendor/modernizr-3.11.2.min.js") }}"></script>
         <link rel="stylesheet" href="{{ asset('customer/assets/css/custom.css') }}">
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
     </head>
     <body>
         <input type="hidden" id="auth-value" value="{{ $customer_data["is_login"] }}">
@@ -98,25 +99,8 @@
         <footer class="footer-area pt-75 gray-bg-3">
             <div class="footer-top gray-bg-3 pb-35">
                 <div class="container">
-                    <div class="row">
-						<div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="footer-widget mb-40">
-                                <div class="footer-title mb-25">
-                                    <h4>My Account</h4>
-                                </div>
-                                <div class="footer-content">
-                                    <ul>
-                                        <li><a href="my-account.html">My Account</a></li>
-                                        <li><a href="about-us.html">Order History</a></li>
-                                        <li><a href="wishlist.html">WishList</a></li>
-                                        <li><a href="#">Newsletter</a></li>
-                                        <li><a href="about-us.html">Order History</a></li>
-                                        <li><a href="#">International Orders</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-						<div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="row"> 
+						<div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="footer-widget mb-40">
                                 <div class="footer-title mb-25">
                                     <h4>カテゴリ</h4>
@@ -128,7 +112,7 @@
                                 </div>
                             </div>
                         </div>
-						<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="footer-widget mb-40">
                                 <div class="footer-title mb-25">
                                     <h4>会社情報</h4>
@@ -166,7 +150,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="footer-widget footer-widget-red footer-black-color mb-40">
                                 <div class="footer-title mb-25">
                                     <h4>Contact Us</h4>

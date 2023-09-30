@@ -65,7 +65,7 @@
                                         <a href="/category">お買い物を続ける</a>
                                     </div>
                                     <div class="cart-clear"> 
-                                        <a href="<?php if ($customer_data['is_login']): ?>  /checkout <?php else: ?> /checkout-login <?php endif ?> ">今すぐ購入</a>
+                                        <a href="<?php if ($customer_data['is_login']): ?>  /checkout <?php else: ?> /checkout-login <?php endif ?> " class="btn-cart-to-checkout">今すぐ購入</a>
                                     </div>
                                 </div>
                             </div> 

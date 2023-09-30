@@ -43,7 +43,7 @@ Route::middleware(['AuthCustomer:login'])->group(function () {
 
 Route::middleware(['AuthCustomer:logined'])->group(function () {
     Route::post('logout', 'Customer\AuthController@logout')->name('customer.logout');
-    Route::get('profile', 'Customer\DisplayController@profile')->name('admin.profile.index'); 
+    Route::get('profile', 'Customer\DisplayController@profile')->name('customer.view.profile'); 
 });
 
 Route::get('checkout-login', 'Customer\DisplayController@checkout_login')->name('customer.checkout_login');
