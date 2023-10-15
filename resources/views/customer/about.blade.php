@@ -80,7 +80,7 @@
                     </div>
                     <div class="about-wrapper">
                         <h3 class="custom_blog_title">本社アクセスマップ</h3>
-                        <iframe width="100%" height="500" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.0359963145197!2d139.6894424!3d35.749919999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ed92ef9ad3b7%3A0x2b0707ef324434ea!2z5qCq5byP5Lya56S-Njc4OQ!5e0!3m2!1svi!2s!4v1656977254514!5m2!1svi!2s" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.479121302729!2d139.75357839999998!3d35.73902679999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188deb3d18fdbd%3A0x7e275f0616789d96!2z44CSMTE0LTAwMTUgVG9reW8sIEtpdGEgQ2l0eSwgTmFrYXphdG8sIDEtY2jFjW1l4oiSMzfiiJI4IOOCr-ODrOOCu-ODs-OCueOCveODleOCo-OCog!5e0!3m2!1svi!2sjp!4v1697354534962!5m2!1svi!2sjp" style="width: 100%;" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div> 
                 </div>
             </div>
