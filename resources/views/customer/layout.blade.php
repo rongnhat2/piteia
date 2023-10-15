@@ -52,7 +52,7 @@
                                             <li><a href="{{ route("customer.view.rule_pay") }}">お支払いについて</a></li>
                                             <li><a href="{{ route("customer.view.rule_order") }}">注文の仕方</a></li>
                                             <li><a href="{{ route("customer.view.rule_ship") }}">お届けについて</a></li>
-                                            <li><a href="{{ route("customer.view.contact") }}">お問い合わせ</a></li>
+                                            {{-- <li><a href="{{ route("customer.view.contact") }}">お問い合わせ</a></li> --}}
                                         </ul>
                                     </nav>
                                 </div> 
@@ -83,7 +83,7 @@
                                     <li><a href="{{ route("customer.view.rule_pay") }}">お支払いについて</a></li>
                                     <li><a href="{{ route("customer.view.rule_order") }}">注文の仕方</a></li>
                                     <li><a href="{{ route("customer.view.rule_ship") }}">お届けについて</a></li>
-                                    <li><a href="{{ route("customer.view.contact") }}">お問い合わせ</a></li>
+                                    {{-- <li><a href="{{ route("customer.view.contact") }}">お問い合わせ</a></li> --}}
                                 </ul>
                             </nav>
                         </div>
@@ -159,16 +159,16 @@
                                     <p>Your address goes here</p>
                                     <div class="footer-contact mt-20">
                                         <ul>
-                                            <li>0123456789</li>
-                                            <li>0123456789</li>
+                                            <li>07091907607</li>
                                         </ul>
                                     </div>
 									<div class="footer-contact mt-20">
                                         <ul>
-                                            <li>demo@example.com</li>
-                                            <li>demo@example.com</li>
+                                            <li>1-chōme-37-8 Nakazato, Kita City, Tokyo 114-0015</li>
+                                            <li>piteiashop@gmail.com</li>
                                         </ul>
                                     </div>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.479121302729!2d139.75357839999998!3d35.73902679999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188deb3d18fdbd%3A0x7e275f0616789d96!2z44CSMTE0LTAwMTUgVG9reW8sIEtpdGEgQ2l0eSwgTmFrYXphdG8sIDEtY2jFjW1l4oiSMzfiiJI4IOOCr-ODrOOCu-ODs-OCueOCveODleOCo-OCog!5e0!3m2!1svi!2sjp!4v1697354534962!5m2!1svi!2sjp" style="width: 100%;" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
                         </div>
